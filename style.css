@@ -37,7 +37,7 @@ body{
   background-color: #adadad;
   padding: 10px;
   
-}
+
 .lead-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(180, 180, 187, 0.8);  
@@ -59,7 +59,7 @@ body{
   background-color: #2189c5;
   color: rgb(253, 255, 255);
 }
-
+}
 
  /* Following is for Accounts menu */
 .AccountsMenu {
@@ -67,7 +67,7 @@ body{
   grid-template-columns: auto auto auto auto auto;
   background-color: #adadad;
   padding: 10px;
-}
+
 .Accounts-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(180, 180, 187, 0.8);
@@ -88,6 +88,37 @@ body{
 .Accounts-item a.active {
   background-color: #2189c5;
   color: rgb(253, 255, 255);
+}
+}
+
+ /* Following is for Oppurtunity menu */
+ .OpportunitiesMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #adadad;
+  padding: 10px;
+
+.Opportunities-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(180, 180, 187, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px; /*added round edges(can change)*/
+}
+.Opportunities-item a {   /* These are menu texts */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+.Opportunities-item:hover {
+  background-color: rgb(0, 157, 255);
+  color: black;
+}
+.Opportunities-item a.active {
+  background-color: #2189c5;
+  color: rgb(253, 255, 255);
+}
 }
 
 
