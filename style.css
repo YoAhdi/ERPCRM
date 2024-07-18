@@ -121,5 +121,126 @@ body{
 }
 }
 
+ /* Following is for Sales menu */
+ .SalesMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #adadad;
+  padding: 10px;
+
+.Sales-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(180, 180, 187, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px; /*added round edges(can change)*/
+}
+.Sales-item a {   /* These are menu texts */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+.Sales-item:hover {
+  background-color: rgb(0, 157, 255);
+  color: black;
+}
+.Sales-item a.active {
+  background-color: #2189c5;
+  color: rgb(253, 255, 255);
+}
+}
+
+/* Following is for Marketing menu */
+.MarketingMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #adadad;
+  padding: 10px;
+
+.Marketing-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(180, 180, 187, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px; /*added round edges(can change)*/
+}
+.Marketing-item a {   /* These are menu texts */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+.Marketing-item:hover {
+  background-color: rgb(0, 157, 255);
+  color: black;
+}
+.Marketing-item a.active {
+  background-color: #2189c5;
+  color: rgb(253, 255, 255);
+}
+}
+
+/* Following is for Service menu */
+.ServiceMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #adadad;
+  padding: 10px;
+
+.Service-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(180, 180, 187, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px; /*added round edges(can change)*/
+}
+.Service-item a {   /* These are menu texts */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+.Service-item:hover {
+  background-color: rgb(0, 157, 255);
+  color: black;
+}
+.Service-item a.active {
+  background-color: #2189c5;
+  color: rgb(253, 255, 255);
+}
+}
+
+/* Following is for Analytics menu */
+.AnalyticsMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #adadad;
+  padding: 10px;
+
+.Analytics-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(180, 180, 187, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px; /*added round edges(can change)*/
+}
+.Analytics-item a {   /* These are menu texts */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+.Analytics-item:hover {
+  background-color: rgb(0, 157, 255);
+  color: black;
+}
+.Analytics-item a.active {
+  background-color: #2189c5;
+  color: rgb(253, 255, 255);
+}
+}
+
+
 
 
