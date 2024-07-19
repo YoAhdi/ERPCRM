@@ -7,6 +7,31 @@ body{
   justify-content: space-between;
 }
 
+/*following is for sign in page*/
+
+/* is for UserID */
+
+.UserID{
+  input[type=text] {
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 10px;
+  }
+}
+
+/* is for Password */
+.passwordInput{
+  input[type=password] {
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 10px;
+
+}
+}
+
+
  /* Following is navbar */
 .navbar ul{
   list-style-type: none;
@@ -14,6 +39,7 @@ body{
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+  border-radius: 30px; /*new update 7/19; made round edges*/
 }
 .navbar a{
   color: white;
