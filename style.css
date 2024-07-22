@@ -9,7 +9,7 @@ body{
 
 
 
-/*following is for sign in page*/
+/*following is for login page*/
 .loginForm{
 
   /*posititioning and radius*/
@@ -18,8 +18,8 @@ body{
   justify-content: center;
   flex-direction: column;
   line-height: 2;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
   margin-top: 10%;
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(66, 65, 67);
