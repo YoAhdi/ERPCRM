@@ -65,15 +65,20 @@ body{
 
 }
 
- /* Following is navbar */
+.navbar {
+  width: 100%;
+  background-color: #2b579a;
+  overflow: auto;
+}
+
 .navbar ul{
   list-style-type: none;
-  background-color:rgb(65, 63, 63);
   padding: 0px;
   margin: 0px;
   overflow: hidden;
-  border-radius: 30px; /*new update 7/19; made round edges*/
+  border-radius: 0px; 
 }
+
 .navbar a{
   color: white;
   text-decoration: none;
@@ -82,12 +87,54 @@ body{
   text-align: center;
 }
 .navbar a:hover{
-  background-color: rgb(0, 157, 255);
+  background-color: rgb(185, 185, 185);
 }
 .navbar li{
   float: left;
-
 }
+.navbar img{
+  margin: 15px;
+  height: 20px;
+}
+
+.navbar p{
+  float: right;
+  color: white;
+  margin: 18px;
+}
+
+
+/*
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}*/
 
  /* following is Leads menu */
 .leadsMenu {
